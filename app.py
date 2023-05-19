@@ -89,7 +89,7 @@ db = client.contacted_people
 contact_list = db.contact_list
 
 
-@app.route('/contact', methods=['GET', 'POST'])
+@app.route('/contact_info', methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
         # Get form data
