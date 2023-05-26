@@ -13,7 +13,7 @@
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
       <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-        <h1 class="title-font font-medium text-3xl text-gray-900">Review Finder is an web applicatioin</h1>
+        <h1 class="title-font font-medium text-3xl text-gray-900" id="text_one">Review Finder is an web applicatioin</h1>
         <p class="leading-relaxed mt-4">which find peaple Review on that product using the flipkart web application ,
           flipkart is an popular E-commerse platform accrose the world wide</p>
       </div>
@@ -53,8 +53,13 @@
     </div>
   </div>
 </section>
-
+<script>
+  var typed = new Typed('#text_one', {
+    strings: ['<i>welcome</i> To review finder', '&amp; search a product to get there reviews . '],
+    typeSpeed: 50,
+  });
+</script>
 </body>
-
 </html>
+
 {% endblock body %}
